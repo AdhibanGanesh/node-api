@@ -35,7 +35,7 @@ pipeline {
         stage('Deploy Container') {
             steps {
                 // Run the Docker container
-                sh 'docker run -d -p 3000:3000 --name node-api node-api'
+                sh 'docker run -d -p 8081:3000 --name node-api node-api'
             }
         }
     }
