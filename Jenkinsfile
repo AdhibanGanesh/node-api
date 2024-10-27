@@ -5,7 +5,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Clone the repository from Git
-                git url: 'https://github.com/AdhibanGanesh/node-api.git', branch: 'main'
+                git url: 'https://github.com/AdhibanGanesh/node-api.git', branch: 'master'
             }
         }
         
